@@ -1,0 +1,43 @@
+p, h1, h2, h3, h4, h5, h6, h7, a, button {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300
+}
+
+.header-3-sub p {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size:1.2em;
+}
+
+.header-3-sub h2 {
+  font-family: 'futura-pt', 'Open Sans',sans-serif;
+  font-weight: 700;
+  text-align: center
+  }
+  
+mm-green {
+	color:rgb(35, 148, 159);
+}
+
+.btn-mm {
+	background-color: rgb(35, 148, 159);
+}
+
+.btn-mm:hover{
+	background-color: rgb(85, 183, 181);
+}
+
+.background {
+background-image:url('../img/bg.jpg');
+}
+
+.content-7 {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+}
+
+.content-7 h3{
+  font-family: 'futura-pt', 'Open Sans',sans-serif;
+  font-weight: 700;
+}
