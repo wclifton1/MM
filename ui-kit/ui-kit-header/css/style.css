@@ -6,7 +6,7 @@
 /* styles from flat-ui-free2.0.0-fix.less files */
 body {
   color: #34495e;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.231;
 }
@@ -14,7 +14,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 a {
@@ -514,7 +514,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: #2c3e50;
 }
 h1 {
@@ -542,7 +542,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
@@ -777,7 +777,7 @@ header .brand {
   font-size: 25px;
   font-weight: normal;
   color: #34495e;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 800;
   letter-spacing: -1px;
   color: #2c3e50;
@@ -836,7 +836,7 @@ section * {
   position: absolute;
   z-index: 2;
   top: 45px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 .header-1 .navbar.navbar-fixed-top {
@@ -845,7 +845,7 @@ section * {
 .header-1 .navbar .brand {
   font-size: 25px;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 800;
   color: #ffffff;
 }
@@ -937,7 +937,7 @@ section * {
   font-weight: normal;
   color: #ffffff;
   font-weight: 300;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
 }
 @media (max-width: 600px) {
@@ -1066,7 +1066,7 @@ section * {
   position: absolute;
   z-index: 2;
   top: 55px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-2 .navbar.navbar-fixed-top {
   position: fixed;
@@ -1075,7 +1075,7 @@ section * {
   font-size: 25px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-2 .navbar .brand img:first-child {
   float: left;
@@ -1216,7 +1216,7 @@ section * {
 .header-3 .navbar {
   top: 0;
   margin-top: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-3 .navbar.navbar-fixed-top {
   top: 0 !important;
@@ -1293,7 +1293,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
   font-weight: 300;
 }
@@ -1301,7 +1301,7 @@ section * {
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 @media (max-width: 480px) {
   .header-3-sub {
@@ -1369,7 +1369,7 @@ section * {
   margin: 0 0 35px;
   padding: 0;
   background: transparent;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-4 .hero-unit h1 {
   margin: 0 0 17px;
@@ -1428,7 +1428,7 @@ section * {
   position: absolute;
   z-index: 2;
   top: 50px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-5 .navbar.navbar-fixed-top {
   position: fixed;
@@ -1489,7 +1489,7 @@ section * {
   font-size: 20px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   text-align: center;
   line-height: 25px;
   background: none;
@@ -1521,7 +1521,7 @@ section * {
   font-size: 40px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   white-space: nowrap;
   opacity: 20;
   filter: alpha(opacity=2000);
@@ -1753,7 +1753,7 @@ section * {
   font-size: 20px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   line-height: normal;
 }
 .header-5-sub .pt-page-1 .box-icon {
@@ -1820,7 +1820,7 @@ section * {
 .header-6 .navbar {
   position: absolute;
   z-index: 2;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   top: -50px;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -1984,7 +1984,7 @@ section * {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.7);
   font-weight: 300;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-6-sub .container > .row:first-child {
   opacity: 0;
@@ -2158,7 +2158,7 @@ section * {
 .header-7-sub .h5,
 .header-7-sub h6,
 .header-7-sub .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: white;
 }
 .header-7-sub .pt-perspective {
@@ -2296,7 +2296,7 @@ section * {
   font-size: 25px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 .header-7-sub .brand img:first-child {
@@ -2345,7 +2345,7 @@ section * {
   padding-right: 5px;
 }
 .header-7-sub section h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-7-sub section .col-sm-8 {
   text-align: center;
@@ -2361,7 +2361,7 @@ section * {
   font-weight: normal;
   color: #bdc3c7;
   font-weight: 300;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin-bottom: 130px;
 }
 .header-7-sub section > div {
@@ -2559,7 +2559,7 @@ section * {
   top: 0;
   z-index: 2;
   margin: 18px 0 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-8 .navbar.navbar-fixed-top {
   top: 0 !important;
@@ -2596,7 +2596,7 @@ section * {
   font-weight: normal;
   color: #7f8c8d;
   font-weight: 500;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: #95a5a6;
 }
 .header-8 .navbar .nav > li > a:hover,
@@ -2638,7 +2638,7 @@ section * {
   font-size: 24px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   text-align: center;
   font-weight: 300;
   color: #fff;
@@ -2665,7 +2665,7 @@ section * {
   font-size: 13px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   opacity: 0;
   filter: alpha(opacity=0);
 }
@@ -2722,7 +2722,7 @@ section * {
   color: #ffffff;
   font-weight: 500;
   letter-spacing: 1.6px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-9 .navbar .nav > li > a:hover,
 .header-9 .navbar .nav > li > a:focus,
@@ -2777,7 +2777,7 @@ section * {
   font-size: 46px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 46.00000000000001px;
   letter-spacing: 0;
@@ -2793,7 +2793,7 @@ section * {
   font-size: 13px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 500;
   letter-spacing: 1.6px;
   text-transform: uppercase;
@@ -2825,7 +2825,7 @@ section * {
   font-size: 13px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 25px;
   opacity: 0;
@@ -2914,7 +2914,7 @@ section * {
   font-size: 25px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
 .header-10 .navbar .brand img:first-child {
@@ -3028,14 +3028,14 @@ section * {
   font-size: 45px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 .header-10-sub .hero-unit p {
   font-size: 25px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 37.5px;
 }
@@ -3044,7 +3044,7 @@ section * {
     font-size: 36px;
     font-weight: normal;
     color: #ffffff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
   }
   .header-10-sub .hero-unit p {
@@ -3060,7 +3060,7 @@ section * {
   font-weight: normal;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   border: 8px solid white;
   display: inline-block;
   margin: 0;
@@ -3141,7 +3141,7 @@ section * {
   z-index: 2;
   top: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-11 .navbar.navbar-fixed-top {
   top: 0 !important;
@@ -3222,14 +3222,14 @@ section * {
   font-weight: normal;
   color: #ffffff;
   margin-bottom: 15px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 .header-11-sub p {
   font-size: 16px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-11-sub .additional-links {
   opacity: 50;
@@ -3273,7 +3273,7 @@ section * {
   }
 }
 .header-11-sub .signup-form form {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -3388,7 +3388,7 @@ section * {
   width: 100%;
   top: 90px;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   color: #bdc3c7;
@@ -3545,13 +3545,13 @@ section * {
 .header-12-sub .aside h6,
 .header-12-sub .aside .h6 {
   color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-12-sub .aside h3 {
   font-size: 32px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 500;
   margin: 0 0 30px;
 }
@@ -3559,7 +3559,7 @@ section * {
   font-size: 13px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   letter-spacing: 1px;
   line-height: 24.3px;
 }
@@ -3749,7 +3749,7 @@ section * {
   font-size: 29.000000000000004px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin-bottom: 26px;
   font-weight: 300;
 }
@@ -3757,7 +3757,7 @@ section * {
   font-size: 22px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 .header-13-sub .col-sm-5.col-sm-offset-1 {
@@ -3849,7 +3849,7 @@ section * {
 .header-14-sub .h5,
 .header-14-sub h6,
 .header-14-sub .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: white;
 }
 .header-14-sub h1 {
@@ -3876,7 +3876,7 @@ section * {
   font-size: 13px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   letter-spacing: 8px;
 }
 .header-14-sub .header-14 [class*="fui-"] {
@@ -4166,7 +4166,7 @@ section * {
   font-weight: normal;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   letter-spacing: 4px;
 }
 .header-15-sub .hero-unit > [class*="fui-"] {
@@ -4252,7 +4252,7 @@ section * {
   font-size: 13px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-16 .navbar .navbar-header {
   float: none;
@@ -4272,7 +4272,7 @@ section * {
   font-size: 13px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   width: auto;
   height: auto;
   letter-spacing: 2px;
@@ -4453,7 +4453,7 @@ section * {
   font-weight: normal;
   color: #7f8c8d;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
 }
 .header-16-sub .scroll-btn > *:hover,
@@ -4546,7 +4546,7 @@ section * {
   font-size: 13px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
 }
 .header-16-sub .pt-control-prev {
@@ -4864,7 +4864,7 @@ section * {
   font-size: 28px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 @media (max-width: 480px) {
@@ -4917,7 +4917,7 @@ section * {
   font-size: 22px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   line-height: 32px;
 }
 .header-17-sub h6 {
@@ -5148,7 +5148,7 @@ section * {
 .header-18 .header-18-sub .h5,
 .header-18 .header-18-sub h6,
 .header-18 .header-18-sub .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-18 .header-18-sub header {
   position: absolute;
@@ -5397,7 +5397,7 @@ section * {
   position: absolute;
   z-index: 2;
   top: 100px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   opacity: 0;
   filter: alpha(opacity=0);
 }
@@ -5617,7 +5617,7 @@ section * {
 }
 .header-20 .navbar {
   margin-top: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-20 .navbar.navbar-fixed-top {
   top: 0 !important;
@@ -5669,7 +5669,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: -1px;
   margin-bottom: 30px;
@@ -5678,7 +5678,7 @@ section * {
   font-size: 18px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   margin-bottom: 30px;
 }
 .header-20-sub .btn {
@@ -5889,7 +5889,7 @@ section * {
 }
 .header-21 .navbar {
   margin-top: 107px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-21 .navbar.navbar-fixed-top {
   position: fixed;
@@ -5958,7 +5958,7 @@ section * {
   padding: 30px 10px 0;
   font-size: 13px;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 500;
   letter-spacing: 2px;
   color: #bdc3c7;
@@ -6064,7 +6064,7 @@ section * {
   font-size: 25px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 .header-21-sub .control-btn {
@@ -6126,7 +6126,7 @@ section * {
   z-index: 2;
 }
 .header-22 .navbar {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 13px;
 }
 .header-22 .navbar.navbar-fixed-top {
@@ -6297,7 +6297,7 @@ section * {
   position: absolute;
   z-index: 2;
   top: 60px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
 .header-23 .navbar.navbar-fixed-top {
   position: fixed;
@@ -6307,7 +6307,7 @@ section * {
   font-size: 25px;
   font-weight: normal;
   color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 .header-23 .navbar .nav > li {
