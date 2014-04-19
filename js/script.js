@@ -11,17 +11,10 @@ $("h2").each(function() {
 
 */
 
-/* Header 3
-startupKit.uiKitHeader.header3 = function() {
-    if ($('.header-3 .navbar').hasClass('navbar-fixed-top')) {
-        $('.header-3').css('position', 'fixed').addClass('fake-header');
-    };
-    startupKit.uiKitHeader._inFixedMode('.header-3');
-};
-
-/* Sample 20 
+/* Sample 20 */
 
 function fadedEls(el, shift) {
+if (el.length != 0) {
     el.css('opacity', 0);
 
     switch (shift) {
@@ -52,6 +45,7 @@ function fadedEls(el, shift) {
             }
         }
     });
+}
 }
 
 (function($) {

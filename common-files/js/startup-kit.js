@@ -567,7 +567,7 @@ startupKit.uiKitContent.content5 = function() {};
 /* Content 6*/
 startupKit.uiKitContent.content6 = function() {};
 
-/* Content 7*/
+/* Content 7
 startupKit.uiKitContent.content7 = function() {
     
     (function(el) {
