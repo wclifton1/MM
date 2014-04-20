@@ -4,10 +4,23 @@
 }
 
 .header-3-sub h2 {
-  font-family: 'futura-pt', 'Open Sans',sans-serif;
+  font-family: 'futura-pt', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 700;
-  text-align: center
+  text-align: center;
+  padding-bottom:25px;
   }
+  
+.content-26 h3{
+  font-family: 'futura-pt', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 700;
+}
+
+.content-26 .features h6{
+  font-family: 'futura-pt', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 700;
+  color:#333;
+  font-size: 1.5em;
+}
   
 mm-green {
 	color:rgb(35, 148, 159);
@@ -38,5 +51,27 @@ background-image:url('../img/bg.jpg');
 }
 
 .content-26 .lead{
-	color:#ccc;
+	color:#333;
+}
+
+.header-3 .navbar .nav > li > a {
+  color: #96a5a6;
+}
+.header-3 .navbar .nav > li > a:hover,
+.header-3 .navbar .nav > li > a:focus,
+.header-3 .navbar .nav > li > a.active {
+  color: rgb(35, 148, 159);
+}
+.header-3 .navbar .nav > li.active > a {
+  color: rgb(35, 148, 159);
+}
+.header-3 .navbar .nav > li.active > a:hover,
+.header-3 .navbar .nav > li.active > a:focus,
+.header-3 .navbar .nav > li.active > a.active {
+  color: rgb(35, 148, 159);
+}
+
+.content-5 ul{
+-webkit-padding-start: 0px;
+font-size: 16px;
 }

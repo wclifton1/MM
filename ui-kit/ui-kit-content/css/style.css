@@ -6,7 +6,7 @@
 /* styles from flat-ui-free2.0.0-fix.less files */
 body {
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 14px;
   line-height: 1.231;
 }
@@ -14,7 +14,7 @@ input,
 button,
 select,
 textarea {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 14px;
 }
 a {
@@ -368,6 +368,13 @@ li {
   display: inline-block;
   vertical-align: top;
 }
+.btn > [class^="fa-"] {
+  margin-left: 4px;
+  margin-right: 4px;
+  line-height: inherit;
+  display: inline-block;
+  vertical-align: top;
+}
 .input-group-btn .btn {
   background: #bdc3c7;
   line-height: 9px 12px 10px;
@@ -478,6 +485,12 @@ body > header .header-background {
   display: inline-block;
   vertical-align: middle;
 }
+
+[class^="fa-"] {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 body > section,
 header,
 footer {
@@ -514,7 +527,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #2c3e50;
 }
 h1 {
@@ -542,7 +555,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 .uneditable-input {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
@@ -572,7 +585,7 @@ header .brand {
   font-size: 25px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 800;
   letter-spacing: -1px;
   color: #2c3e50;
@@ -624,33 +637,33 @@ section * {
   font-size: 34px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-bottom: 24px;
 }
 .content-1 p {
   font-size: 18px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .content-1 .box-video {
   margin-top: 40px;
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .content-1 .box-video p {
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .content-1 .box-video h6 {
   font-size: 20px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-transform: none;
 }
 .content-1 .box-video .btns {
@@ -786,7 +799,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-bottom: 35px;
   font-weight: 300;
 }
@@ -794,7 +807,7 @@ section * {
   font-size: 18px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 29.999999999999996px;
 }
 .content-2 .btns {
@@ -855,7 +868,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   margin-bottom: 24px;
 }
@@ -863,7 +876,7 @@ section * {
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 29.999999999999996px;
 }
 @media (max-width: 767px) {
@@ -943,7 +956,7 @@ section * {
   font-size: 20px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   text-transform: none;
 }
@@ -976,7 +989,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-bottom: 24px;
   font-weight: 300;
 }
@@ -984,7 +997,7 @@ section * {
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 26px;
 }
 .content-4 .features h6 {
@@ -992,7 +1005,7 @@ section * {
   font-size: 24px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   text-transform: none;
 }
@@ -1046,7 +1059,7 @@ section * {
   font-size: 35px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
 }
 @media (max-width: 767px) {
@@ -1058,7 +1071,7 @@ section * {
   font-size: 25px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   text-align: center;
 }
@@ -1084,8 +1097,23 @@ section * {
   font-weight: normal;
   color: #2c3e50;
 }
+.content-5 .features > [class*="col-sm-"] > [class*="fa-"] {
+  position: absolute;
+  left: -45px;
+  top: 7px;
+  font-size: 25px;
+  font-weight: normal;
+  color: #2c3e50;
+}
 @media (max-width: 767px) {
   .content-5 .features > [class*="col-sm-"] > [class*="fui-"] {
+    position: static;
+    float: left;
+    margin: -7px 20px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .content-5 .features > [class*="col-sm-"] > [class*="fa-"] {
     position: static;
     float: left;
     margin: -7px 20px 0 0;
@@ -1100,7 +1128,7 @@ section * {
   font-size: 22px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   margin-bottom: 14px;
   text-transform: none;
@@ -1125,7 +1153,7 @@ section * {
   font-size: 35px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .content-6 h3 img {
   display: block;
@@ -1149,7 +1177,7 @@ section * {
   font-size: 25px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 @media (max-width: 767px) {
@@ -1216,7 +1244,7 @@ section * {
   font-size: 22px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   margin-bottom: 14px;
   text-transform: none;
@@ -1235,7 +1263,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-bottom: 80px;
   line-height: 42px;
   font-weight: 800;
@@ -1317,7 +1345,7 @@ section * {
   font-size: 22px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 32px;
   font-weight: 300;
 }
@@ -1372,7 +1400,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 70px 0 35px;
 }
 .content-8 p {
@@ -1391,7 +1419,7 @@ section * {
   font-weight: normal;
   color: #7f8c8d;
   font-weight: 500;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding: 12px 28px 12px;
   color: #e74c3c;
 }
@@ -1465,7 +1493,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-bottom: 24px;
   font-weight: 300;
 }
@@ -1480,7 +1508,7 @@ section * {
   font-size: 18px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-9 .info {
@@ -1558,7 +1586,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-bottom: 48px;
   font-weight: 300;
 }
@@ -1591,7 +1619,7 @@ section * {
   font-size: 22px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 15px;
@@ -1614,7 +1642,7 @@ section * {
   font-size: 24px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
 .content-11 > .container {
@@ -1663,7 +1691,7 @@ section * {
   font-size: 40px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #ffffff;
   background: #1abc9c;
   font-weight: 300;
@@ -1745,7 +1773,7 @@ section * {
   font-size: 50px;
   font-weight: normal;
   color: #ffffff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   letter-spacing: -1px;
 }
@@ -1800,7 +1828,7 @@ section * {
   font-size: 50px;
   font-weight: normal;
   color: #ffffff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .content-13.subscribe-form .btn {
   margin-top: 8px;
@@ -1828,7 +1856,7 @@ section * {
     font-size: 25px;
     font-weight: normal;
     color: #ffffff;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     text-align: center;
   }
 }
@@ -1860,7 +1888,7 @@ section * {
   font-size: 35px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 @media (max-width: 767px) {
@@ -1872,7 +1900,7 @@ section * {
   font-size: 25px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
   font-weight: 300;
 }
@@ -1936,7 +1964,7 @@ section * {
   text-transform: none;
   color: #e74c3c;
   font-size: 18px;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-14 .features .row {
@@ -2059,7 +2087,7 @@ section * {
   font-size: 37px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   line-height: 50px;
   text-align: center;
@@ -2088,7 +2116,7 @@ section * {
   font-size: 20px;
   font-weight: normal;
   color: #e74c3c;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-15 .features h6:first-child {
@@ -2180,7 +2208,7 @@ section * {
   font-size: 25px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   margin-bottom: 35px;
 }
@@ -2306,7 +2334,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   line-height: 40px;
 }
@@ -2317,7 +2345,7 @@ section * {
   font-size: 18px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-18 .carousel .controls {
@@ -2408,7 +2436,7 @@ section * {
   font-size: 18px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 /**
@@ -2444,14 +2472,14 @@ section * {
   font-weight: normal;
   color: #2c3e50;
   font-weight: 300;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .content-19 .col-sm-7 .quote .quote-author {
   margin-top: 20px;
   font-size: 13px;
   font-weight: normal;
   color: #95a5a6;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   letter-spacing: 2px;
   text-transform: capitalize;
 }
@@ -2492,7 +2520,7 @@ section * {
   font-size: 18px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-19 .col-sm-3 .quote .quote-author-photo {
@@ -2511,7 +2539,7 @@ section * {
   font-size: 12px;
   font-weight: normal;
   color: #95a5a6;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   line-height: 1.19em;
 }
@@ -2590,7 +2618,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #ffffff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-bottom: 35px;
   line-height: 40px;
   font-weight: 300;
@@ -2652,7 +2680,7 @@ section * {
   font-size: 15px;
   font-weight: normal;
   color: #34495e;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .content-20 .signup-form form .form-group {
   margin-bottom: 23px;
@@ -2787,14 +2815,14 @@ section * {
   font-size: 14px;
   font-weight: normal;
   color: #95a5a6;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .content-20 .features big {
   display: block;
   font-size: 22px;
   font-weight: normal;
   color: #ffffff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   line-height: 32px;
   margin-bottom: 8px;
@@ -2803,7 +2831,7 @@ section * {
   font-size: 18px;
   font-weight: normal;
   color: #ffffff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-top: 38px;
 }
 @media (max-width: 767px) {
@@ -2825,7 +2853,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #ffffff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
   margin-bottom: 55px;
   font-weight: 300;
@@ -2877,7 +2905,7 @@ section * {
   font-size: 12px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   letter-spacing: 3px;
   border-left: 2px solid #304357;
   cursor: pointer;
@@ -2957,7 +2985,7 @@ section * {
   font-size: 20px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-21 .features.features-tabs .features-body p {
@@ -2999,7 +3027,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #ffffff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin: 40px 0;
   font-weight: 300;
 }
@@ -3013,7 +3041,7 @@ section * {
   font-size: 18px;
   font-weight: normal;
   color: #ffffff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   text-transform: none;
 }
@@ -3021,7 +3049,7 @@ section * {
   font-size: 18px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-bottom: 50px;
 }
 .content-22 .col-sm-8 {
@@ -3037,7 +3065,7 @@ section * {
   font-size: 14px;
   font-weight: normal;
   color: #bdc3c7;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   position: relative;
   max-width: 220px;
   background: url("../../../common-files/img/content/line-l@2x.png") no-repeat scroll center top / 50% auto rgba(0, 0, 0, 0);
@@ -3195,7 +3223,7 @@ section * {
   font-size: 14px;
   font-weight: normal;
   color: #2ecc71;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-22 .btn.btn-clear:hover,
@@ -3357,7 +3385,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #ffffff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-bottom: 40px;
   font-weight: 300;
 }
@@ -3458,7 +3486,7 @@ section * {
   font-size: 14px;
   font-weight: normal;
   color: #2ecc71;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-24 .btn.btn-clear:hover,
@@ -3512,13 +3540,13 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-25 p {
   font-size: 18px;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-top: 45px;
   font-weight: normal;
 }
@@ -3539,7 +3567,7 @@ section * {
   font-size: 22px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   margin-bottom: 0;
 }
@@ -3547,7 +3575,7 @@ section * {
   font-size: 35px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   margin: 0 0 36px;
 }
@@ -3559,7 +3587,7 @@ section * {
 .content-26 .features h6 {
   text-transform: none;
   margin-top: 37px;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   font-size: 18px;
 }
@@ -3592,7 +3620,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: left;
   margin-bottom: 43px;
   font-weight: 300;
@@ -3601,7 +3629,7 @@ section * {
   font-size: 16px;
   font-weight: normal;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   line-height: 29.6px;
 }
 .content-27 .btn {
@@ -3693,7 +3721,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding-bottom: 40px;
   font-weight: 300;
 }
@@ -3721,7 +3749,7 @@ section * {
   font-size: 30px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding-bottom: 40px;
   font-weight: 300;
   text-align: center;
@@ -3801,7 +3829,7 @@ section * {
 .content-29 .features h6 {
   text-transform: none;
   margin-top: 37px;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   font-size: 18px;
 }
@@ -3872,7 +3900,7 @@ section * {
   font-size: 16px;
   font-weight: normal;
   color: #1abc9c;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
 }
 .content-30 .features img[src*="arrow-"] {
@@ -4010,7 +4038,7 @@ section * {
   color: #fff;
   line-height: 40px;
   font-size: 24px;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   -webkit-transition: 0.6s background-color;
   -moz-transition: 0.6s background-color;
@@ -4208,7 +4236,7 @@ section * {
   text-align: center;
   background: #f2f2f1;
   color: #7f8c8d;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .content-32 .lead {
   font-size: 20px;
@@ -4220,7 +4248,7 @@ section * {
   font-size: 35px;
   font-weight: normal;
   color: #2c3e50;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   line-height: 40px;
   margin: 0 0 48px;
@@ -4240,7 +4268,7 @@ section * {
 }
 .content-32 .features h6 {
   text-transform: none;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   font-size: 20px;
   margin: 0 0 20px;
@@ -4257,7 +4285,7 @@ section * {
   }
 }
 .content-33 {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   padding-top: 125px;
   padding-bottom: 110px;
 }

@@ -67,7 +67,7 @@ if (el.length != 0) {
         fadedEls($('.features .col-sm-7 img'), 'h');
         fadedEls($('.content-7 .row > *'), 'h/2');
 
-        // Ani screen
+        /* Ani screen
         (function(el) {
             $('img:first-child', el).css('left', '-29.7%');
 
@@ -86,6 +86,7 @@ if (el.length != 0) {
                 }
             });
         })($('.screen'));
+        */
 
         $(window).resize().scroll();
 
