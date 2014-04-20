@@ -37,29 +37,26 @@
 <link rel="stylesheet" href="ui-kit/ui-kit-price/css/style.css">
 <!-- projects --
 <link rel="stylesheet" href="ui-kit/ui-kit-projects/css/style.css">
-<!-- footer --
+<!-- footer -->
 <link rel="stylesheet" href="ui-kit/ui-kit-footer/css/style.css">
--->
 <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 <div class="page-wrapper">
-<header class="header-3"> <!--used in sample-6-->
+<header class="header-3" id="top"> <!--used in sample-6-->
     <div class="container">
         <div class="row">
             <nav class="navbar col-sm-12" role="navigation">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle"></button>
-                    <a class="brand" href="#"><img src="img/mm-sm.png" width="200" height="50" alt=""></a>
+                    <a class="brand" href="#top"><img src="img/mm-sm.png" width="200" height="50" alt=""></a>
                 </div>
                 <div class="collapse navbar-collapse pull-right">
                     <ul class="nav pull-left">
-                        <li class="active"><a href="#">FIND YOUR TREATMENT</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">LEARN</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#platform">LEARN</a></li>
+                        <li><a href="#footer">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>
@@ -84,13 +81,14 @@
     <div>
         <div class="container">
             <div class="row v-center">
-                <div class="col-sm-3 col-sm-offset-1">
-                    <div>
-                        Molecular Match is making personalized medicine a reality with a web-based platform that uses your own genetic sequencing data to find the <mm-green>best treatment for you.</mm-green>
-                    </div>
+                <div class="col-sm-4 col-sm-offset-2">
+                    <h3>Making Personalized Medicine a Reality</h3>
+                    <p>
+                        Molecular Match is a web-based platform that uses your own genetic sequencing data to find the <mm-green>best treatment for you.</mm-green>
+                    </p>
                 </div>
                 <div class="col-sm-4">
-                    <div class="col-sm-offset-1">
+                    <div class="">
                         <div class="screen-wrapper">
                             <div class="screen">
                                 <img src="img/app-1.png" alt="">
@@ -129,7 +127,7 @@
     </div>
 </section>
 
-<section class="content-5">
+<section class="content-5" id="platform">
     <div class="container">
         <img src="img/platform.png" width="400" height="200" alt="">
         <div class="row">
@@ -139,13 +137,13 @@
         </div>
         <div class="row features">
             <div class="col-sm-4 col-sm-offset-2">
-                <i class="fa fa-search"></i></span>
+                <i class="fa fa-search mm-green"></i></span>
                 <h6>Clinical Trial Selector</h6>
                 <ul>Search clinical trial databases with our easy-to-use interface.</ul>
                 <ul>Proprietary ranking algorithm selects best trial for you.</ul>
             </div>
             <div class="col-sm-4 col-sm-offset-1">
-                <span class="fui-folder"> </span>
+                <span class="fa fa-folder mm-green"> </span>
                 <h6>Mutation Portal</h6>
                 <ul>Curated data on your disease or mutation.
 </ul>
@@ -155,18 +153,41 @@
         </div>
         <div class="row features">
             <div class="col-sm-4 col-sm-offset-2">
-                <i class="fa fa-medkit"></i>
+                <i class="fa fa-medkit mm-green"></i>
                 <h6>Knowledgable Network</h6>
                 <ul>Users consist of both patients and physicians.</ul>           
                 </div>
             <div class="col-sm-4 col-sm-offset-1">
-                <i class="fa fa-comments"></i>
+                <i class="fa fa-comments mm-green"></i>
                 <h6>User Reviews</h6>
                 <ul>Find out what other patients thought about your treatment options.</ul>
              </div>
         </div>
     </div>
 </section>
+
+<footer class="footer-10" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <a class="brand" href="#top">
+                    <img src="img/mm-sm.png" width="200" height="50" alt="">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <div class="box box-first">
+                    <h6>6500 Main St. Suite 1020</h6>
+                    <h6>Houston, TX  77030</h6>
+                </div>
+            </div>
+            <div class="col-sm-4 box">
+                <h6>Contact Us:</h6>
+                <p><a href="mailto:info@melocularmatch.com">info@molecularmatch.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </div>
 

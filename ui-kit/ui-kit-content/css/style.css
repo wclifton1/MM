@@ -26,7 +26,7 @@ a {
   transition: 0.25s;
 }
 a:hover {
-  color: #1abc9c;
+  color: rgb(85, 183, 181);
   text-decoration: none;
 }
 h1,
@@ -1103,7 +1103,6 @@ section * {
   top: 7px;
   font-size: 25px;
   font-weight: normal;
-  color: #2c3e50;
 }
 @media (max-width: 767px) {
   .content-5 .features > [class*="col-sm-"] > [class*="fui-"] {
@@ -1127,7 +1126,6 @@ section * {
 .content-5 .features > [class*="col-sm-"] h6 {
   font-size: 22px;
   font-weight: normal;
-  color: #34495e;
   font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 500;
   margin-bottom: 14px;
