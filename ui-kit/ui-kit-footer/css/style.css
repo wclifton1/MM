@@ -25,7 +25,7 @@ a {
   transition: 0.25s;
 }
 a:hover {
-  color: #1abc9c;
+  color: rgb(85, 183, 181);
   text-decoration: none;
 }
 h1,
