@@ -1,0 +1,164 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>Molecular Match Changelog</title>
+<script type="text/javascript" src="//use.typekit.net/uei3smh.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script>
+		$(document).ready(function(e) {
+			$('dt').each(function(index, element) {
+				if ($(this).hasClass('f')){
+					$(this).text("F");
+				} else if ($(this).hasClass('e')){
+					$(this).text("E");
+				} else if ($(this).hasClass('n')){
+					$(this).text("N");
+				} else if ($(this).hasClass('r')){
+					$(this).text("R");
+				}
+				else if ($(this).hasClass('t')){
+					$(this).text("T");
+				}
+			});
+			
+			$('li').hover(function(){
+				if ($(this).children('dt').hasClass('f')){
+					$('dt.icon:not(.f)').parent().addClass('fade');
+				} else if ($(this).children('dt').hasClass('e')){
+					$('dt.icon:not(.e)').parent().addClass('fade');
+				} else if ($(this).children('dt').hasClass('n')){
+					$('dt.icon:not(.n)').parent().addClass('fade');
+				} else if ($(this).children('dt').hasClass('r')){
+					$('dt.icon:not(.r)').parent().addClass('fade');
+				}
+				else if ($(this).children('dt').hasClass('t')){
+					$('dt.icon:not(.t)').parent().addClass('fade');
+				}
+				
+			},function(){
+				$('.fade').removeClass('fade');
+			});
+		});
+	</script>
+	<style>
+	/* Reset */
+	html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}
+	article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+	body{line-height:1}
+	ol,ul,li{list-style:none}
+	blockquote,q{quotes:none}
+	blockquote:before,blockquote:after,q:before,q:after{content:none}
+	table{border-collapse:collapse;border-spacing:0}
+	html {position:static!important;top:0!important;}
+	
+	/* Main Stuff */
+	*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+	
+	a { color: #1b1f23; text-decoration:none;border-bottom:1px solid #ccc; -webkit-transition:0.25s;-moz-transition:0.25s;-ms-transition:0.25s;transition:0.25s;}
+	a:hover { text-decoration:none;border-bottom:1px solid #1b1f23}
+	
+	h1{font-family: 'futura-pt', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif}
+	
+	body{font-family:'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;cursor:default}
+	.w940{max-width:940px}
+	.w620{max-width:620px}
+	.cont{margin:0 auto;padding:0 20px}
+	.top{padding:107px 0}
+	.top a{font-family:'Raleway', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;font-size:16px;text-decoration:none;text-transform:uppercase;lfont-weight:400;color:#919497;border-bottom:none}
+	.top a strong{font-weight:700;color:#1b1f23}
+	li{-webkit-transition:2s;-moz-transition:2s;-o-transition:2s;transition:2s}
+	li.fade{opacity:0.2}
+	.right{float:right;position:relative;top:-5px;}
+	@media screen and (max-width: 690px) {
+		.right{float:inherit; display:block;margin-top: 30px;}
+	}
+	
+	.right li{display:inline-block;color:#696f6f;font-size:18px;margin-right:35px}
+	.right li:last-child{margin-right:0}
+	.right .icon{vertical-align: middle;}
+	.icon{background:#ccc;color:#1b1f23;display:inline-block;width:30px;height:30px;border-radius:50%;font-size:20px;font-weight:600;text-align:center;line-height:32px;margin-right:13px;overflow:hidden}
+	.f{background:#fada00;color:#1b1f23;}
+	.e{background:#31cb72;color:#fff}
+	.n{background:#31a1cb;color:#fff}
+	.r {background:#015284;color:#fff;}
+	.t {background:#f55162;color:#fff;}
+	.status { background:#fff; border-radius:0;}
+	h1 {font-size:35px;color:#1b1f23;font-weight:700;margin:60px 0 0;letter-spacing:-1px;}
+	h2{font-size:22px;color:#1b1f23;font-weight:700;margin:0 0 20px 0}
+	h2 span{font-weight:400;color:#585858}
+	.changes li{border-bottom:2px solid #f0f2f3;padding:75px 0}
+	.changes li:last-child{border-bottom:none}
+	.changes li li{color:#585858;font-size:18px;line-height:30px;margin-left:50px;padding:13px 0}
+	.changes li li .icon{position:absolute;margin-left:-50px}
+	.changes li li strong{font-weight:600}
+	.release{background:#f0f2f3}
+	.footer{font-size:14px;color:#878c8f;padding:70px 0}
+	.footer a{color:#1b1f23;text-decoration:none;border-bottom:1px solid #fff;-webkit-transition:.25s;-moz-transition:.25s;-o-transition:.25s;transition:.25s}
+	.footer a:hover { border-bottom:1px solid #878c8f;}
+	</style>
+</head>
+<body>
+	<section class="cont w940">
+		<div class="top">
+			<a href="http://designmodo.com/startup/"><strong>Molecular Match</strong> Project Plan</a>
+			<div class="right">
+				<ul>
+					<li><dt class="icon n"></dt>New</li>
+					<li><dt class="icon f"></dt>Fix</li>
+					<li><dt class="icon e"></dt>Enhance</li>
+					<li><dt class="icon t"></dt>Todo</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section class="changes">
+		<div class="cont w620">
+			<h1>Changelog for Molecular Match</h1>
+		</div>
+		<ul>			
+			<!--- 1.1 ---->
+		<li class="">
+				<div class="cont w620">
+					<h2>Version 1.1 - Landing Page <span> (In Progress)</span></h2>
+					<ul>
+						<li><dt class="icon t">T</dt>Accent color</li>
+						<li><dt class="icon t">T</dt>Hi-resolution<strong> vector</strong> icons and logos</li>
+						<li><dt class="icon t">T</dt>Purchase <strong>final</strong> icons and stock photos</li>
+						<li><dt class="icon t">T</dt><strong>Team</strong> page</li>
+						<li><dt class="icon t">T</dt><strong>Learn</strong> page with Youtube video and detailed description</li>
+						<li><dt class="icon t">T</dt><strong>Dynamic</strong> news feed and/or event calendar</li>
+						<li><dt class="icon t">T</dt>Mailing list <strong>subscription</strong> form</li>
+					</ul>
+				</div>
+			</li>
+			
+			<!--- 1.0.0 ---->
+			
+			<li class="release">
+				<div class="cont w620">
+					<h2>Version 1 - Landing Page <span> Latest Version (April 20, 2014)</span></h2>
+					<ul>
+						<li><dt class="icon r">R</dt>Molecular Match Landing Page Release</li>
+						<li><dt class="icon n">N</dt>Landing Page layout and formatting with placeholder text</li>
+						<li><dt class="icon n">N</dt>Fonts and color palette</li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+	</section>
+	
+	<footer class="footer">
+		<div class="cont w620">
+			Copyright © 2014 <a href="http://molecularmatch.com/">Molecular Match</a>. All Rights Reserved.
+		</div>
+	</footer>
+							
+</html>
